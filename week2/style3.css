@@ -1,0 +1,120 @@
+body {
+    background-color: #f9f9f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    background: white;
+    margin: auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    text-align: center;
+    color: #5d5fef;
+    font-size: 40px;
+}
+
+h2 {
+    color: #7f77ff;
+    border-bottom: 2px solid #7f77ff;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.hobby {
+    background-color: #ffe5ec;
+    padding: 10px;
+    margin: 8px 0;
+    border-left: 5px solid #ff99c8;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.project {
+    background-color: #e0f7fa;
+    padding: 15px;
+    border-left: 5px solid #70d6ff;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #a0c4ff;
+    color: #333;
+}
+
+.contact {
+    background-color: #bdb2ff;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.contact a {
+    color: #5d5fef;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.comment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.comment-form input,
+.comment-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.comment-form button {
+    background-color: #ffc6ff;
+    color: #333;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: fit-content;
+    font-weight: bold;
+}
+
+.comment-list {
+    margin-top: 20px;
+}
+
+.comment-list p {
+    background-color: #f0eaff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border-left: 5px solid #bdb2ff;
+}
